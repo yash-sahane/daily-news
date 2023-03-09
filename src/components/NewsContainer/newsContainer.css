@@ -1,0 +1,44 @@
+.news-container {
+    padding: 50px 0;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.btn-nav {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.button {
+    background-color: #337AB7;
+    border-radius: 20px;
+    color: white;
+    padding: 15px 25px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.prev-btn {
+    margin-right: 30px;
+}
+
+.next-btn {
+    margin-left: 30px;
+}
+
+.button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
