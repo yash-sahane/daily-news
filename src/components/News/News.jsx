@@ -15,9 +15,9 @@ function News({ country, category }) {
             setLoading(true);
             const response = await fetch(fetchURL);
             const data = await response.json();
+            console.log(data);
             setTotalResults(data.totalResults)
             setNews(data.articles);
-            console.log(data.articles)
             document.title = `DailyNews - ${category.charAt(0).toUpperCase() + category.slice(1)}`
             setLoading(false);
         })();
