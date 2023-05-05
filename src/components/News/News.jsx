@@ -8,9 +8,9 @@ function News({ country, category }) {
     const [page, setPage] = useState(1);
     const [totalResults, setTotalResults] = useState(0);
     const [loading, setLoading] = useState(false);
-    const fetchURL = `https://newsapi.org/v2/top-headlines?country=${country}&category=${category}&apiKey=${process.env.REACT_APP_API_KEY}&page=${page}&pageSize=20`;
+    // const fetchURL = `https://newsapi.org/v2/top-headlines?country=${country}&category=${category}&apiKey=${process.env.REACT_APP_API_KEY}&page=${page}&pageSize=20`;
 
-    // const fetchURL = `https://newsapi.org/v2/top-headlines?country=${country}&category=${category}&apiKey=71b39dfa7af646409a826179f987f899&page=${page}&pageSize=20`;
+    const fetchURL = `https://newsapi.org/v2/top-headlines?country=${country}&category=${category}&apiKey=71b39dfa7af646409a826179f987f899&page=${page}&pageSize=20`;
 
     useEffect(() => {
         (async () => {
