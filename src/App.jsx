@@ -1,6 +1,6 @@
 import React from 'react'
 import News from './components/News/News'
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './app.css'
 
 function App() {
