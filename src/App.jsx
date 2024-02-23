@@ -8,12 +8,12 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route exact path='/' element={<News country='in' category='general' />} />
-          <Route exact path='/entertainment' element={<News country='in' category='entertainment' />} />
-          <Route exact path='/health' element={<News country='in' category='health' />} />
-          <Route exact path='/science' element={<News country='in' category='science' />} />
-          <Route exact path='/sports' element={<News country='in' category='sports' />} />
-          <Route exact path='/technology' element={<News country='in' category='technology' />} />
+          <Route path='/' element={<News country='in' category='general' />} />
+          <Route path='/entertainment' element={<News country='in' category='entertainment' />} />
+          <Route path='/health' element={<News country='in' category='health' />} />
+          <Route path='/science' element={<News country='in' category='science' />} />
+          <Route path='/sports' element={<News country='in' category='sports' />} />
+          <Route path='/technology' element={<News country='in' category='technology' />} />
         </Routes>
       </Router>
     </div>
